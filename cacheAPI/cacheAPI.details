@@ -1,0 +1,9 @@
+ name: cacheAPI
+ description: cacheAPI
+ authors:
+   - Vairam Vairaperumal et al
+ resources:
+   - https://github.com/vairam-svs/edgeAPI-samples/new/master/cacheAPI/index.html
+   - https://github.com/vairam-svs/edgeAPI-samples/new/master/cacheAPI/app.js
+   - https://github.com/vairam-svs/edgeAPI-samples/new/master/cacheAPI/app.css
+ normalize_css: no
