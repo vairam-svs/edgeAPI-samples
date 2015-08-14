@@ -1,5 +1,10 @@
 var cacheApiApp = angular.module('cacheApiApp', []);
-.cacheApiAppdirective('ngHelloDirective', function () {
+cacheApiApp.controller('appFirstCtrl', function ($scope) {
+    //define the initial model and controller for this app.
+    //TODO: Add a service for its model later.
+    $scope.name = 'FirstName LastName';
+});
+cacheApiApp.cacheApiAppdirective('ngHelloDirective', function () {
     return {
         restrict: 'E',
         template: '<p>Hello {{name}}!</p>',
