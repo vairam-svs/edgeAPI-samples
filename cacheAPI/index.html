@@ -1,11 +1,15 @@
 <!doctype html>
-<html manifest="app.manifest">
+<html manifest="app.manifest" ng-app="cacheAPIApp">
  <head>
   <title>A cache API sample Web Page</title>
-  <script src="app.js"></script>
+  <script src="https://code.angularjs.org/1.4.4/angular.js" type="text/javascript"></script>
+  <script src="app.js" type="text/javascript"></script>
   <link rel="stylesheet" href="app.css">
  </head>
  <body>
   hello world this is from cache file. locally. 
+  <div ng-controller="appFirstCtrl">
+        <hello-directive></hello-directive>
+    </div>
  </body>
 </html>
